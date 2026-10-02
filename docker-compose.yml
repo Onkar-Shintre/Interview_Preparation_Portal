@@ -14,7 +14,7 @@ services:
 
   frontend:
     build:
-      context: ./frontend
+      context: ./frontend/interview-prep-ai
     container_name: interview-frontend
     ports:
       - "5173:5173"
